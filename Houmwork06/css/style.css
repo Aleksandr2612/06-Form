@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(227, 224, 224, 0.632);
+}
+
+div {
+    max-width: 500px;
+    margin: auto;
+    padding-top: 45px;
+    /* background-color: rgba(252, 251, 250, 0.321); */
+}
+
+.title {
+    font-weight: 550;
+    font-size: large;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+}
+
+p {
+    text-align: center;
+    /* font-size: 5px; */
+    font-size: large;
+    line-height: 22px;
+}
+
+.dialog {
+    max-width: 270px;
+    /* width: 100%; */
+    margin: auto;
+    /* text-align: center; */
+    /* background-color: rgb(218, 196, 196); */
+    padding-top: 30px;
+}
+
+input {
+    width: 100%;
+    height: 33px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    padding-left: 12px;
+    border: 1px solid gray;
+}
+
+label {
+    color: rgb(142, 134, 134);
+}
+
+select {
+    display: inline-block;
+    height: 32px;
+    width: 29%;
+    /* margin-right: 10px; */
+}
+
+.date-born {
+    text-align: left;
+    padding: 5px 0 12px 0;
+    color: rgba(90, 85, 78, 0.808);
+}
+
+.select-1 {
+    margin-right: 10px;
+    width: 75px;
+}
+
+.select-2 {
+    margin-right: 10px;
+    width: 92px;
+}
+
+.select-3 {
+    width: 75px;
+}
+
+.registr {
+    background-color: rgba(66, 184, 66, 0.877);
+    margin: 20px 0 10px 0;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+span {
+    display: block;
+    color: grey;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 100%;
+    height: 33px;
+    /* margin-bottom: 10px; */
+    cursor: pointer;
+    color: white;
+    background-color: rgba(23, 23, 221, 0.685);
+    border: none;
+    border-radius: 5px;
+}
+
+span::before {
+    content: '';
+    display: inline-block;
+    background-color: rgb(143, 135, 135);
+    width: 50px;
+    height: 2px;
+    vertical-align: middle;
+    margin-right: 10px
+}
+
+span::after {
+    content: '';
+    display: inline-block;
+    background-color: rgb(143, 135, 135);
+    width: 50px;
+    height: 2px;
+    vertical-align: middle;
+    margin-left: 10px;
+}

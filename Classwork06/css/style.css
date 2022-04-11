@@ -1,0 +1,29 @@
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+
+/* ::placeholder {
+    padding-left: 10px;
+} */
+
+input {
+    padding-left: 10px;
+    border: none;
+    /* outline: red solid 2px;
+    border: rgb(0, 8, 255) solid 2px; */
+}
+
+input::focus {
+    border: none;
+    outline: none;
+}
+
+button {
+    background-color: rgb(239, 198, 198);
+    border: none;
+    /* width: 30px; */
+    cursor: pointer;
+}
